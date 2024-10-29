@@ -1,0 +1,128 @@
+#scoreboard {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#timer {
+
+    top:0;
+    width: 100%;
+    background-color: #ddd;
+    height: 20px;
+    margin: 10px auto;
+    position: relative;
+}
+
+#time-bar {
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    transition: width 0.2s linear;
+}
+
+.hidden {
+    display: none;
+}
+
+#game-over {
+    text-align: center;
+    font-size: 24px;
+    display: none;
+}
+
+#restart-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.game {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.image {
+    pointer-events: none;
+    width: 100%;
+    border-radius: 20px;
+}
+.selector {
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+
+.button {
+    position:absolute;
+    background-color: red;
+    border: none;
+    color: black;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    left:45%;
+    top:32%;
+    border-radius: 50%;
+}
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 60px solid yellow;
+    position: absolute;
+    cursor: pointer;
+}
+
+#left-eye {
+    top: 250px;
+    left: 310px;
+}
+
+#right-eye {
+    top: 250px;
+    right: 280px;
+}
+
+#nose {
+    top: 550px;
+    left: 370px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+.yellow {
+    border-bottom-color: yellow;
+}
+
+.red {
+    background-color: red;
+    border-bottom-color: transparent;
+}
+
+.mutqer{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align: center;
+}
